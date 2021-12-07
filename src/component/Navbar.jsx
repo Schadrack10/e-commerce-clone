@@ -38,7 +38,18 @@ const Navbar = () => {
         <button class="btn btn-outline-success" type="submit">Search</button>
       </form> */}
       <div className="buttons">
-           <button className="btn"></button>
+          <a href="" className="btn btn-outline-dark">
+            <i className="fa fa-sign-in me-1"></i>
+            Login
+            </a>  
+          <a href="" className="btn btn-outline-dark">
+            <i className="fa fa-sign-in me-1"></i>
+            Register
+            </a>  
+          <a href="" className="btn btn-outline-dark">
+            <i className="fa fa-sign-in me-1"></i>
+            Cart(0)
+            </a>  
       </div>
 
     </div>
